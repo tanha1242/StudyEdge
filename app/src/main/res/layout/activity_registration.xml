@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    tools:context=".RegistrationActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/log1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Registration" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email1"
+        android:inputType="text"
+        android:hint="Email"
+        android:ems="15"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password1"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="15"/>
+
+
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress1"
+        android:visibility="gone"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/button1"
+        android:text="Register"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newlog1"
+        android:text="Already have an Account! "
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="15dp" />
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+
+    tools:context=".amitanha">
+    <TextView
+        android:id="@+id/texttittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About The Genious Tanha"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:id="@+id/name"
+        android:layout_marginTop="24dp"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact"
+        android:id="@+id/contact"
+        android:layout_marginTop="24dp"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of birth"
+        android:id="@+id/dob"
+        android:layout_marginTop="24dp"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnInsert"
+        android:textSize="24dp"
+        android:text="Insert New Data"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnUpdate"
+        android:textSize="24dp"
+        android:text="Update Data"
+        android:layout_marginTop="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnDelete"
+        android:textSize="24dp"
+        android:text="Deleting Existing  Data "
+        android:layout_marginTop="30dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnView"
+        android:textSize="24dp"
+        android:text="View Data"
+        android:layout_marginTop="30dp" />
+
+
+
+
+</LinearLayout>
